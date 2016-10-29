@@ -3,7 +3,6 @@
  *
  * Common code to support ad integrations.
  */
- "use strict";
 (function(factory) {
     if (typeof define === 'function' && define['amd']) {
       define(['video.js'], function(vjs){ factory(window, document, vjs) });
@@ -13,7 +12,6 @@
       factory(window, document, videojs);
     }
 })(function(window, document, videojs) {
-
 
 var
 
